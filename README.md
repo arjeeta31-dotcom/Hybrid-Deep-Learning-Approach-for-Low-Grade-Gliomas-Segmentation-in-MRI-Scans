@@ -30,7 +30,7 @@ Our pipeline consists of four major stages:
 
 ---
 
-## 🚀 Key Features & Innovations
+##  Key Features & Innovations
 * **Detection-Driven Segmentation:** Drastically reduces class imbalance and global background noise by isolating the ROI before pixel classification.
 * **EfficientNet-B4 + Attention Gates:** Utilizes compound scaling for intricate feature extraction and processes encoder features selectively to capture fine-grained boundary details.
 * **Clinical Interpretability:** Generates both **Prediction Probability Maps** and **Uncertainty Maps** (using predictive entropy) to show clinicians exactly where boundary confidence drops.
