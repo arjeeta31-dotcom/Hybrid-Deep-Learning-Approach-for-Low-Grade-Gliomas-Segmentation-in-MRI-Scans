@@ -62,7 +62,7 @@ Our model achieves exceptionally close structural similarity to the ground-truth
 ---
 
 ## 💻 Tech Stack
-* **Deep Learning Framework:** PyTorch / TensorFlow (Specify yours)
+* **Deep Learning Framework:** PyTorch 
 * **Object Detection:** Ultralytics YOLOv8 (nano)
 * **Backbone Architecture:** EfficientNet-B4
 * **Image Processing:** OpenCV, Scikit-Image, NumPy
