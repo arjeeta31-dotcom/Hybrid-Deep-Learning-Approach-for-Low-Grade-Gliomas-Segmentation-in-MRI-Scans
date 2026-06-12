@@ -6,12 +6,12 @@ Our work was successfully peer-reviewed and **presented** at the **IEEE RECCAP 2
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 Traditional single-stage medical image segmentation models often struggle with high false-positive rates due to extensive background noise and severe class imbalance (where the tumor is tiny compared to the entire brain scan). 
 
 To resolve this, we developed a **sequential pipeline** that first isolates the tumor region before segmenting it. By introducing a localization step, we filter out irrelevant non-pathological artifacts, allowing the segmentation network to focus entirely on the tumor-tissue interface.
 
-### 🛠️ System Architecture
+###  System Architecture
 Our pipeline consists of four major stages:
 1. **Preprocessing & Standardization:** MRI slices are resized and normalized using Z-score standardization.
 2. **Tumor Localization (ROI Extraction):** A lightweight **YOLOv8 (nano)** network acts as a rapid region-of-interest (ROI) detector to estimate bounding boxes around the tumor. A precise margin is added to preserve critical edge details.
@@ -20,7 +20,7 @@ Our pipeline consists of four major stages:
 
 ---
 
-## 🖼️ Methodology & Visual Pipeline
+##  Methodology & Visual Pipeline
 
 ### Proposed Framework Pipeline
 ![System Pipeline](pipeline.jpg)
@@ -38,7 +38,7 @@ Our pipeline consists of four major stages:
 
 ---
 
-## 📊 Performance & Evaluation Results
+##  Performance & Evaluation Results
 
 Tested against an independent test set of unseen patient profiles over 60 training epochs, our hybrid network significantly outperformed the baseline standard ResUNet across all structural, overlap, and reliability metrics:
 
@@ -64,7 +64,7 @@ Our model achieves exceptionally close structural similarity to the ground-truth
 
 ---
 
-## 💻 Tech Stack
+##  Tech Stack
 * **Deep Learning Framework:** PyTorch 
 * **Object Detection:** Ultralytics YOLOv8 (nano)
 * **Backbone Architecture:** EfficientNet-B4
@@ -73,7 +73,7 @@ Our model achieves exceptionally close structural similarity to the ground-truth
 
 ---
 
-## 📖 Citation & Conference Information
+##  Citation & Conference Information
 
 If you use this work or code in your research, please cite our conference paper:
 
