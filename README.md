@@ -54,6 +54,9 @@ Tested against an independent test set of unseen patient profiles over 60 traini
 | | Recall (Sensitivity) | 0.78 | **0.94** |
 | | PR-AUC Score | 0.79 | **0.98** |
 
+### Performace Matrix
+![Perforamce Matrix](performancematrix.jpg)
+
 ### Qualitative Segmentation Outputs
 Our model achieves exceptionally close structural similarity to the ground-truth annotations across varied tumor shapes and scales. 
 
